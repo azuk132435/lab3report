@@ -80,7 +80,7 @@ $ less -p report 911report/chapter-13.5.txt
 $ less -p 911 911report
 911report is a directory
 ```
-![Image](Lab 3 - Highlight.JPG)<br>
+![Image](Lab 3 - highlight.JPG)<br>
 So what this command (less -p pattern) does is for a directory it just returns that the directory is a directory, but for
 files it is able to go through and highlight throughout the text ever time whatever you write as "pattern" ( here I did
 report). I think this is useful just for example if in a class you needed to highlight key terms it could easily 
@@ -140,7 +140,7 @@ pushed back from the gate just before 8:00.
 $ less +30 911report
 911report is a directory
 ```
-![Image](Lab 3 - jump.JPG)<br>
+![Image](Lab 3 - linenumber.JPG)<br>
 This command (less +linenumber) allows you to jump to the line that you want the display in the terminal to start at and once against just return is a directory for directories. This can be useful when combined with the earlier line tool where if someone says there's an error in line x you can now instantly jump to line x and see what is wrong. (I am adding a screenshot to prove it jumps to the right part correctly.
 
 Sources: ChatGPT <br>
