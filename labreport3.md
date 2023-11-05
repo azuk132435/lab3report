@@ -22,7 +22,7 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-<br>
+
 ```
 after:
 static void reverseInPlace(int[] arr) {
