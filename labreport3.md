@@ -17,7 +17,7 @@ public void testReverseInPlace() {
 	}
 ```
 Terminal:
-![Image](Lab 2 - part 1.JPG)<br>
+![Image](Lab 3 - part 1.JPG)<br>
 before:
 ```
 static void reverseInPlace(int[] arr) {
@@ -80,7 +80,7 @@ $ less -p report 911report/chapter-13.5.txt
 $ less -p 911 911report
 911report is a directory
 ```
-![Image](Lab 2 - Highlight.JPG)<br>
+![Image](Lab 3 - Highlight.JPG)<br>
 So what this command (less -p pattern) does is for a directory it just returns that the directory is a directory, but for
 files it is able to go through and highlight throughout the text ever time whatever you write as "pattern" ( here I did
 report). I think this is useful just for example if in a class you needed to highlight key terms it could easily 
@@ -122,7 +122,7 @@ $ less +F 911report/chapter-2.txt
 $ less +F 911report
 911report is a directory
 ```
-![Image](Lab 2 - end.JPG)<br>
+![Image](Lab 3 - end.JPG)<br>
 So what this command (less +F) does is goes to the end of the file and displays it, once again it just returns that the 
 directory is a directory. One way this could be useful is if you have a ton of files and you need to study from them in a terminal if they have summaries at the end you can quickly just use this over and over for all the files and just read the summaries of all the information you need (I am providing a screenshot to prove this is actually the end of the file.
 
@@ -140,7 +140,7 @@ pushed back from the gate just before 8:00.
 $ less +30 911report
 911report is a directory
 ```
-![Image](Lab 2 - jump.JPG)<br>
+![Image](Lab 3 - jump.JPG)<br>
 This command (less +linenumber) allows you to jump to the line that you want the display in the terminal to start at and once against just return is a directory for directories. This can be useful when combined with the earlier line tool where if someone says there's an error in line x you can now instantly jump to line x and see what is wrong. (I am adding a screenshot to prove it jumps to the right part correctly.
 
 Sources: ChatGPT <br>
